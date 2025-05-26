@@ -1,16 +1,10 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>net9.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
-  </PropertyGroup>
-
-  <ItemGroup>
-    <Folder Include="Interfaces\Repositorio\Base\" />
-    <Folder Include="Servicos\" />
-    <Folder Include="Recursos\" />
-    <Folder Include="Interfaces\Servicos\Base\" />
-  </ItemGroup>
+	<PropertyGroup>
+		<TargetFramework>net9.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<RootNamespace>ECommerce.Dominio</RootNamespace>
+	</PropertyGroup>
 
 </Project>
